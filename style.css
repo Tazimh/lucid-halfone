@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+body{
+    font-family: "DM Sans", sans-serif;
+}
+/* Navbar css start */
+header{
+    width: 100%;
+    background: url(banner.png) center center no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.navbar .navbar-brand img{
+
+    width: 140px;
+}
+.navbar .nav-item .nav-link{
+    color: white;
+    margin-left: 12px;
+}
+/* Banner part css start */
+.banner-section .row .col-lg-6{
+    margin-top: 75px;
+   
+}
+.cus-height{
+    height: 90vh;
+}
+
+.banner-section .content h5{
+    color:#008ed6 ;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    /* letter-spacing: ; */
+}
+.banner-section .content h1{
+    color:white;
+    font-size: 50px;
+    font-weight: 700;
+   }
+.banner-section .content p{
+    color: #fff;
+    line-height: 26px;
+    width: 83%;
+    margin-top: 20px;
+    margin-bottom: 58px;  
+}
+.banner-section .banner-btn a{
+border-radius: 5px;
+padding: 10px 25px;
+font-size: 14px;
+font-family: "DM Sans", sans-serif;
+font-weight: 700;
+}
+
+.banner-section .banner-btn .btn-primary{
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    margin-right: 5px;
+    transition: 0.7s;
+}
+ .banner-section .banner-btn .btn-primary:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.7s;
+ }
+.banner-section .banner-btn .btn-info{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.7s;
+}
+.banner-section .banner-btn .btn-info:hover{
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    color: #fff;
+    transition: 0.7s;
+}
+/* feature-section css */
+
+.feature-section{
+    width: 100%;
+    padding: 50px 0px;
+    border-bottom: 1px solid #999999;
+}
+.feature-section h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.feature-section h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.underline{
+    width: 80px;
+    margin: 30px auto 50px;
+    background:#008ed6 ;
+    height: 2px;
+    transition: 0.7s;
+}
+
+/* .underline:hover{
+    width: 160px;
+    margin: 30px auto;
+    background:#008ed6 ;
+    height: 2px;
+    transition: 0.7s;
+} */
+
+.inner-content i{
+    font-size: 30px;
+    color: #008ed6;
+    width: 88px;
+    height: 88px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 50%;
+    padding-top: 26px;
+    margin-bottom: 20px;
+}
+
+.inner-content h5{
+    font-size: 22px;
+    color: #1a1a1a;
+}
+.inner-content p{
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+}
+.feature-section .inner-content{
+    margin: 0px 20px;
+}
+/* product section start */
+.product-section{
+    width: 100%;
+    padding: 70px 0px 20px;
+}
+.cus-align{
+    text-align: center;
+}
+.product-section .content-right h6{
+    margin-top: 55px;
+}
+
+.product-section .content-right h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+
+}
+.product-section .content-right h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.product-section .content-right p{
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+    width: 88%;
+    
+}
+.product-section .content-right .underline{
+    width: 80px;
+    margin: 25px 0px ;
+    background:#008ed6 ;
+    height: 2px;
+    
+}
+.product-section .inner ul{
+margin: 30px 0px 0px;
+padding: 0px;
+}
+.product-section .inner ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.product-section .inner i{
+    font-size: 18px;
+    color: #008ed6;
+    margin-bottom: 10px;
+}
+.product-section .inner span{
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    color: #1a1a1a;
+    margin-left: 5px;
+}
+/* customize section css */
+.customize-section{
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 30px 0px 50px;
+}
+.c-aligns .lc img{
+    text-align: left;
+    width: 100%;
+}
+
+.customize-section .rc h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    padding-top: 105px;
+}
+
+.customize-section .rc h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.customize-section .rc .underline{
+    width: 80px;
+    margin: 25px 0px ;
+    background:#008ed6 ;
+    height: 2px;
+}
+.customize-section .rc p{
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+    width: 88%;
+}
+
